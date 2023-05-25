@@ -26,7 +26,7 @@ public class Main {
 
 		try {
 			registry = new StandardServiceRegistryBuilder()
-					.configure() // configures settings from hibernate.cfg.xml
+					.configure()
 					.build();
 			sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
 
@@ -71,7 +71,7 @@ public class Main {
 
 		try {
 			registry = new StandardServiceRegistryBuilder()
-					.configure() // configures settings from hibernate.cfg.xml
+					.configure()
 					.build();
 			sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
 
@@ -136,7 +136,7 @@ public class Main {
 
 		try {
 			registry = new StandardServiceRegistryBuilder()
-					.configure() // configures settings from hibernate.cfg.xml
+					.configure()
 					.build();
 			sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
 
